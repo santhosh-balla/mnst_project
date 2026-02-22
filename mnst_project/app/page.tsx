@@ -2,13 +2,19 @@ import "./globals.css";
 
 export default function Home() {
   return (
-    <div className = "container">
-      <h1 className = "header"> Draw here </h1>
-      <h1 className = "header"> I guess you dreaw the number....</h1>
-      <div className = "canvas">
+    <div className = 'container'>
+    <div className = 'container-name'>
+      <div style = {{fontWeight: 'bold'}}>DRAW HERE</div>
+      <div style = {{height: '60vh', border: '5px solid black'}} > </div>
+      <div style = {{padding: '10px'}}className = 'container'>
+      <button> Reset </button>
+      <button> Upload </button>
       </div>
-      <div className = "canvas">
-      </div>
+    </div>
+    <div className = 'container-name'>
+      <div style = {{fontWeight: 'bold'}}>THE NUMBER THE MODEL GUESSED:</div>
+      <div style = {{height: '60vh', border: '5px solid black'}}></div>
+    </div>
     </div>
   );
 }

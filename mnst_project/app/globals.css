@@ -1,35 +1,29 @@
 
+html{
+    margin: 100px;
+}
 
-html { margin: 50px;}
+body{
+    font-family: Helvetica;
+}
 
 .container{
-
-  display: flex;
-  background: red; 
-  z-index: 1;
-  height: 800px;
-  width: 800px;
-  justify-content: space-around;
-  align-items: center;
-
-
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
 }
 
-.canvas {
-
-  border-style: solid;
-  border-width: 5px;
-  border-color: black;
-  width: 500px;
-  height: 500px;
-  background: blue;
-  z-index: 0;
+.container-name{
+    display:flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start; 
 }
 
 
-.header{
-  width: 50px;
-  height: 50px;
-  background: white;
-}
+
+
+
+
 
